@@ -1,0 +1,123 @@
+ <html>
+<head>
+
+<!-- background code-->
+<body background="background.jpg"> 
+
+
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+<meta charset="utf-8">
+<title></title>
+
+
+
+<style type="text/css">
+body {
+background-color: #f4f4f4;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+a { text-decoration: none; }
+h1 { font-size: 1em; }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+#login {
+margin: 50px auto;
+width: 300px;
+}
+form fieldset input[type="text"], input[type="password"] {
+background-color: #e5e5e5;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+form fieldset input[type="submit"] {
+background-color: #008dde;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 300px;
+-webkit-appearance:none;
+}
+form fieldset a {
+color: #5a5656;
+font-size: 10px;
+}
+
+</style>
+</head>
+
+
+
+<body>
+
+
+<!--navbar code-->
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://foss.amrita.ac.in/register/profile/akashfoss/">Akash@FOSS</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+ </nav>
+
+
+<!--sign up-->
+<div id="login">
+<h1><strong>Welcome to Blue Pump.</strong> Please Sign up.</h1>
+<form action="javascript:void(0);" method="get">
+<fieldset>
+<p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'" onFocus="if(this.value=='Username')this.value='' "></p>
+<p><input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+<p><input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+<p><a href="#">Forgot Password?</a></p>
+<p><input type="submit" value="Sign up"></p>
+</fieldset>
+</form>
+
+</div> <!-- end Sign up -->
+
+
+
+
+
+</body>
+</html>
