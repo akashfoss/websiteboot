@@ -1,46 +1,45 @@
-<!DOCTYPE html>
-<html>
-	
-	<head>
-   		<meta charset="utf-8">
-		<title>Learning Bootstrap</title>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-   		 <script src="js/bootstrap.min.js"> </script>	
-	 	 <script src="js/jquery-1.12.1.min.js"> </script>
-   		   
-   		
-	</head>
-	<body>
-		<nav >
-                      <ul>
-			<li>FOSS</li>
-			<li>About</li>
-			<li>Reports</li>
-			<li>ThinkFOSS</li>
-			</ul>
-		</nav>
-		<div class="jumbotron">
-			<h1>Hello World<h1>
-				<div >
-					<div class="row">
-						<div class="col-sm-4 col-md-4">
-							<button class="btn btn-primary">Click me</button>
-								<p>Hello</p>
-						</div>
-						<div class="col-sm-4 col-md-4">
-							<button type="button" class="btn btn-success">Click Me</button>	
-						</div>
-			
-			<button class="btn btn-default">Click me</button>
-			<button type="button" class="btn btn-default">Default</button>
-			<button type="button" class="btn btn-primary">Primary</button>
-			<button type="button" class="btn btn-info">Info</button>
-			<button type="button" class="btn btn-warning">Warning</button>
-			<button type="button" class="btn btn-danger">Danger</button>
-			<button type="button" class="btn btn-link">Link</button>
-			</div>
-		</div>		
-		<h1>New to bootstrap!</h1>
-	</body>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
 
+
+<!--background code-->
+<body background="background.jpg"> 
+
+
+
+  <!--Necessary code. Don't delete this-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  
+  
+  </head>
+<body>
+
+
+
+
+
+<!--Default Navbar for Home page--> 
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://foss.amrita.ac.in/register/profile/akashfoss/">Akash@FOSS</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+ </nav>
+ 
+
+
+ </body>
 </html>
